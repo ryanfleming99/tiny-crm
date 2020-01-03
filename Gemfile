@@ -27,16 +27,19 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-#active admin for managing database
+# active admin for managing database
 gem 'activeadmin'
 # Plus integrations with:
 gem 'cancancan'
-#devise for signing
+# devise for signing
 gem 'devise'
 gem 'draper'
 gem 'pundit'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
+
+# faker gem for data
+gem 'faker'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

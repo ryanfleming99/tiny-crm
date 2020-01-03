@@ -4,7 +4,7 @@ class CustomerController < ApplicationController
   end
 
   def new
-    @customer = Customer.new
+    @customer = Customer.new(customer_params)
   end
 
   def create
@@ -30,6 +30,6 @@ class CustomerController < ApplicationController
   private
 
   def customer_params
-    params.require(:customer).permit_all_parameters
+    params.require(:customer).permit(:forename, :surname, :dob, :gender, :guid)
   end
 end
