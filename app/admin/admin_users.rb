@@ -1,6 +1,4 @@
 ActiveAdmin.register AdminUser do
-  permit_params :forename, :surname, :dob, :gender, :guid
-
   index do
     selectable_column
     id_column
