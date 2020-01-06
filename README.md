@@ -21,6 +21,13 @@ WINDOWS - https://gorails.com/setup/windows/10
 UBUNTU - https://gorails.com/setup/ubuntu/19.10
  ```
 
+### Installing gems
+
+run bundle while you're in the directory of tiny-crm after installing ruby on rails
+```shell
+bundle install
+```
+
 ### Running local server
 ```shell
 rails server
