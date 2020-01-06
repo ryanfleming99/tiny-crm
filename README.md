@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project - Tiny CRM
+- A crm system using active admin to store, edit, delete and update information stored about customers.
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+### Clone the repository
 
-* System dependencies
+```shell
+git clone git@github.com:ryanfleming99/tiny-crm.git
+cd tiny-crm
+```
 
-* Configuration
+### Installing Rails
 
-* Database creation
+Ruby on Rails is mandatory to run the app, you can download it here:
+```
+MAC - https://gorails.com/setup/osx/10.15-catalina
+WINDOWS - https://gorails.com/setup/windows/10
+UBUNTU - https://gorails.com/setup/ubuntu/19.10
+ ```
 
-* Database initialization
+### Running local server
+```shell
+rails server
+```
+This will then point you to localhost:3000
 
-* How to run the test suite
+### Logging In
 
-* Services (job queues, cache servers, search engines, etc.)
+Username and password can be provided via email - ryanfleming93@outlook.com
 
-* Deployment instructions
+### Created by: Ryan Fleming
 
-* ...
+ryanfleming93@outlook.com
+
